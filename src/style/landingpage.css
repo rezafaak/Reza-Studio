@@ -1,0 +1,61 @@
+.MyBG {
+    height: 100vh;
+    background: url("../assets/images/bg/main.jpg");
+    background-size: cover;
+}
+
+.intro {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.brand-fak {
+    padding: 5px;
+}
+
+.brand-fak:hover {
+    background-color: maroon;
+    border-radius: 8px;
+    transition: all .5s ease-in-out;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px black;
+}
+
+.trending {
+    background: url("../assets/images/bg/romance.jpg");
+    background-size: cover;
+    height: auto;
+}
+
+.movieImage {
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.images {
+    height: 500px;
+}
+
+.superhero {
+    background: url("../assets/images/bg/romance.jpg");
+    background-size: cover;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60px;
+    background-color: darkolivegreen;
+}
